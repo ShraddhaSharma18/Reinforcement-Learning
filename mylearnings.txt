@@ -1,1 +1,6 @@
-Using this page to reflect on my everyday learning about ML Frameworks and reinforcement learning:
+Using this page to reflect on my everyday learning about ML Frameworks and reinforcement learning
+
+What is Reinforcement learning? How is it different from supervised machine learning?
+What are the common applications of reinforcement learning?
+What are the types of Reinforcement learning?
+
