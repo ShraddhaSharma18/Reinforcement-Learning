@@ -1,6 +1,15 @@
 Using this page to reflect on my everyday learning about ML Frameworks and reinforcement learning
 
 What is Reinforcement learning? How is it different from supervised machine learning?
+- Process of Machine learning from feedback/experience
+
 What are the common applications of reinforcement learning?
+- Computer games
+- Robotics
+- AlphaGo
+- 
+
 What are the types of Reinforcement learning?
+- Positive RL
+- Negative RL
 
