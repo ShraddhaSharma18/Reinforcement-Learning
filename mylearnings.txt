@@ -1,7 +1,7 @@
 Using this page to reflect on my everyday learning about ML Frameworks and reinforcement learning
 
 What is Reinforcement learning? How is it different from supervised machine learning?
-- Its a kind of Machine learning where the model starts with zero and learns from feedback/experience through Markov Decision Process.
+- Its a paradigm of machine learning where the model starts with zero and learns from feedback/experience through Markov Decision Process.
 
 What are the common applications of reinforcement learning?
 - Computer games
@@ -16,4 +16,20 @@ What are the types of Reinforcement learning?
 What is Markov Decision Process (MDP)?
 - Ref: https://towardsdatascience.com/reinforcement-learning-demystified-markov-decision-processes-part-1-bf00dda41690
 - Markov Property: "Give the present, future is independent of the past"
+
+What is Q-Learning?
+- Ref: https://www.geeksforgeeks.org/q-learning-in-python/
+- Q-Learning is a basic form of Reinforcement Learning which uses Q-values (also called action values) to iteratively improve the behavior of the learning agent
+
+What is td-update rule?
+- Ref: https://www.geeksforgeeks.org/q-learning-in-python/
+- The Temporal Difference or TD-Update rule can be represented as follows :
+
+    Q(S,A) <- Q(S,A) , alpha(R + gamma Q(S',A') + Q(S,A))
+
+- This update rule to estimate the value of Q is applied at every time step of the agents interaction with the environment.
+
+Using OpenAI’s gym environment to train our Q-Learning model:
+pip install gym
+
 
